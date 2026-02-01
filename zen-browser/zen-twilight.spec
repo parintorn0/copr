@@ -22,7 +22,7 @@ BuildRequires:      patchelf
 Recommends:         (plasma-browser-integration if plasma-workspace)
 Recommends:         (gnome-browser-connector if gnome-shell)
 
-Requires(post):     gtk-update-icon-cache
+Requires(post):     hicolor-icon-theme
 Conflicts:          zen-twilight-avx2, zen-twilight-arm
 
 Provides: zen-twilight-avx2 = %{version}-%{release}
