@@ -22,7 +22,7 @@ BuildRequires:      patchelf
 Recommends:         (plasma-browser-integration if plasma-workspace)
 Recommends:         (gnome-browser-connector if gnome-shell)
 
-Requires(post):     gtk-update-icon-cache
+Requires(post):     hicolor-icon-theme
 Conflicts:          zen-browser-avx2, zen-browser-aarch64
 
 Provides: zen-browser-avx2 = %{version}-%{release}
