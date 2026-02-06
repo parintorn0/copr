@@ -24,7 +24,7 @@ BuildRequires:      patchelf
 Recommends:         (plasma-browser-integration if plasma-workspace)
 Recommends:         (gnome-browser-connector if gnome-shell)
 
-Requires(post):     gtk-update-icon-cache
+Requires(post):     hicolor-icon-theme
 
 %description
 This is a release of the Floorp web browser. Floorp is a fork of Firefox ESR
